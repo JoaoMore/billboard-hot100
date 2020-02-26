@@ -8,8 +8,7 @@ load('popularidade.RData') # popularidade e numero de seguidores de cada artista
 load('art50.RData') # quantidade de vezes que cada artista aparece, independente da musica
 
 # credenciais para usar a api do spotify -----
-Sys.setenv(SPOTIFY_CLIENT_ID = '1a64690c9f63499e8bd8ebc72dc2127f')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '2f16a897b79949a2983d188c948c9e9e')
+
 
 # artistas que aparecem ao menos 50 vezes ---------------------------------
 
